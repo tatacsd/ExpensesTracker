@@ -1,1 +1,1 @@
-# React-With-Maximilian-Schwarzm-ller
+# React-With-Maximilian-Schwarzmuller
