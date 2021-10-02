@@ -3,22 +3,35 @@ import React, { useState } from "react";
 import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
-  const [title, setTitle] = useState("");
-  const [amount, setAmount] = useState("");
-  const [date, setDate] = useState("");
+  const [userInput, setUserInput] = useState({
+    title: "",
+    amount: "",
+    date: "",
+  });
 
   const titleChangeHandler = (event) => {
-    setTitle(event.target.value);
+    setUserInput({
+      // spread operator to keep the rest of the state
+      ...userInput,
+      //override the property that is being changed
+      title: event.target.value,
+    });
     console.log(event.target.value);
   };
 
   const amountChangeHandler = (event) => {
-    setAmount(event.target.value);
+    setUserInput({
+      ...userInput,
+      amount: event.target.value,
+    });
     console.log(event.target.value);
   };
 
   const dateChangeHandler = (event) => {
-    setDate(event.target.value);
+    setUserInput({
+      ...userInput,
+      date: event.target.value,
+    });
     console.log(event.target.value);
   };
 
