@@ -10,27 +10,31 @@ const ExpenseForm = () => {
   });
 
   const titleChangeHandler = (event) => {
-    setUserInput({
-      // spread operator to keep the rest of the state
-      ...userInput,
-      //override the property that is being changed
-      title: event.target.value,
+    setUserInput((prevState) => {
+      return {
+        ...prevState,
+        title: event.target.value,
+      };
     });
     console.log(event.target.value);
   };
 
   const amountChangeHandler = (event) => {
-    setUserInput({
-      ...userInput,
-      amount: event.target.value,
+    setUserInput((prevState) => {
+      return {
+        ...prevState,
+        amount: event.target.value,
+      };
     });
     console.log(event.target.value);
   };
 
   const dateChangeHandler = (event) => {
-    setUserInput({
-      ...userInput,
-      date: event.target.value,
+    setUserInput((prevState) => {
+      return {
+        ...prevState,
+        date: event.target.value,
+      };
     });
     console.log(event.target.value);
   };
