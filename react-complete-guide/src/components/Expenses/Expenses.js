@@ -9,9 +9,12 @@ const Expenses = (props) => {
   const [selectedOption, setSelectedOption] = useState("2021");
 
   const handleSelectedOption = (option) => {
-    console.log(option);
     setSelectedOption(option);
   };
+
+  const filteredExpenses = props.items.filter((item) => {
+    return item.date.getFullYear().toString() === selectedOption;
+  });
 
   return (
     <div>
@@ -20,12 +23,12 @@ const Expenses = (props) => {
           selectedYear={selectedOption}
           onSelectedOption={handleSelectedOption}
         />
-        {props.items.map((item) => (
+        {filteredExpenses.map((filteredItem) => (
           <ExpenseItem
-            key={item.id}
-            title={item.title}
-            amount={item.amount}
-            date={item.date}
+            key={filteredItem.id}
+            title={filteredItem.title}
+            amount={filteredItem.amount}
+            date={filteredItem.date}
           />
         ))}
       </Card>
