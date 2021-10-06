@@ -1,6 +1,13 @@
 <div id="top"></div>
 # Expense app tracker 
+
 <!-- TABLE OF CONTENTS -->
+
+![ExpenseTracker](https://user-images.githubusercontent.com/29147847/136284440-9a9e382f-a5b3-4c40-80ac-40971de8cfbb.gif)
+
+
+This project is part of the React - The Complete Guide (incl Hooks, React Router, Redux) course on Udemy, created by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/#instructor-2).
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Deploit](#deploit)
