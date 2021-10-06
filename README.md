@@ -1,4 +1,4 @@
-# Expanse app tracker 
+# Expense app tracker 
 
 This project is part of the React - The Complete Guide (incl Hooks, React Router, Redux) course on Udemy, created by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/#instructor-2).
 
