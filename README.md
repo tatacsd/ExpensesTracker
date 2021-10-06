@@ -30,7 +30,8 @@ Through the construction of this app, we have learned:
 - Understanding the Key on a component
 - How to add dinamic style to a compononent using inline styles
 
-
+## Deploit
+The app is deployed on [Heroku](https://thaysexpensestrack.herokuapp.com/).
 
 ## Installation
 To install the dependencies, run the following command:
