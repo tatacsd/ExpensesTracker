@@ -48,7 +48,8 @@ To use the app, run the following command:
 npm start
 ```
 or
-    ```
+
+```
 yarn start
 ```
 
