@@ -26,6 +26,8 @@ This project is part of the React - The Complete Guide (incl Hooks, React Router
 
 <!-- TABLE OF CONTENTS -->
 <div id="contents"></div>
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Deploit](#deploit)
