@@ -3,7 +3,7 @@
     <a href="https://github.com/tatacsd/ExpensesTracker/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/tatacsd/ExpensesTracker" /></a>
     <a href="https://github.com/tatacsd/ExpensesTracker/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/tatacsd/ExpensesTracker" /></a>
+        <img src="https://img.shields.io/github/commit-activity/w/tatacsd/ExpensesTracker" /></a>
   <a href="https://thaysexpensestrack.herokuapp.com/">
         <img src="https://img.shields.io/website?down_color=red&down_message=offline&up_message=online&url=https%3A%2F%2Fthaysexpensestrack.herokuapp.com%2F"></a>
     <a href="https://twitter.com/intent/follow?screen_name=casadothays">
