@@ -25,6 +25,7 @@ Check it out here: [Expense Tracker App](https://thaysexpensestrack.herokuapp.co
 This project is part of the React - The Complete Guide (incl Hooks, React Router, Redux) course on Udemy, created by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/#instructor-2).
 
 <!-- TABLE OF CONTENTS -->
+<div id="contents"></div>
 ## Table of Contents
 - [Introduction](#introduction)
 - [Deploit](#deploit)
@@ -56,10 +57,12 @@ Through the construction of this app, we have learned:
 - Understanding the Key on a component
 - How to add dinamic style to a compononent using inline styles
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to contents table</a>)</p>
 
 ## Deploit
 The app is deployed on [Heroku](https://thaysexpensestrack.herokuapp.com/).
+
+<p align="right">(<a href="#contents">back to contents table</a>)</p>
 
 ## Installation
 To install the dependencies, run the following command:
@@ -70,6 +73,8 @@ or
 ```
 yarn install
 ```
+
+<p align="right">(<a href="#contents">back to contents table</a>)</p>
 
 ## Usage
 To use the app, run the following command:
@@ -86,10 +91,16 @@ yarn start
 The app is built with the following technologies:
 - [React.js](https://reactjs.org/)
 
+<p align="right">(<a href="#contents">back to contents table</a>)</p>
+
 
 ## Credits
 This app was created by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/#instructor-2).
 
+<p align="right">(<a href="#contents">back to contents table</a>)</p>
+
 ## License
 This app is licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
